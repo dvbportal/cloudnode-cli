@@ -1,0 +1,27 @@
+{
+  "name": "cloudnode-cli",
+  "description": "A CLI tool to allow interaction with the http://cloudno.de/ platform.",
+  "version": "0.2.19",
+  "homepage": "http://cloudno.de/",
+  "repository": "git://github.com/dvbportal/cloudnode-cli.git",
+  "author": "Hans J Schroeder <hs@cloudno.de>",
+  "contributors": [
+    "Dav Glass <davglass@gmail.com> @davglass",
+    "Chris Matthieu <chris@matthieu.us>",
+    "Daniel Bartlett <dan@f-box.org> (http://danb-uk.net/)",
+    "Abraham Williams <4braham@gmail.com>",
+  ],
+  "preferGlobal" : "true",
+  "bin": {
+    "cloudnode": "bin/cloudnode.js"
+  },
+  "main": "./lib/commands.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies" : {
+    "nodester-api": "0.1.9",
+    "colors": "0.3.0",
+    "iniparser": "1.0.1"
+  }
+}
