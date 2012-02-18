@@ -4,9 +4,7 @@ This app is a little wrapper around the REST API for the [Cloudnode](http://clou
 
 ## Installation
 
-**If you are using `npm 1.0` you need to provide the `-g` flag to install this app globally.**
-
-    npm install cloudnode-cli -g
+    npm install cloudnode-cli
 
 ## Usage
 
