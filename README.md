@@ -13,4 +13,4 @@ This app is a little wrapper around the REST API for the [Cloudnode](http://clou
     cloudnode help user
 
     //All options
-    cloudnde help all
+    cloudnode help all
